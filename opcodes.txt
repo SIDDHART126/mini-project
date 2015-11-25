@@ -11,7 +11,6 @@ READ    09
 PRINT   10
 LTORG   11
 STOP    12
-ORIGIN  13
 DS      14
 EQU     15
 DS      16
