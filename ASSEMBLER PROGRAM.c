@@ -66,6 +66,3 @@ char line_1[20],lbl[8],opcode[8],operand[8],programmename[10];
                            while(strcmp(line_1,"END")!=0)
                           {
 
-                                   R_line_1();
-                                   printf("\n %d\t %s \t%s\t %s",loc_ctr,lbl,opcode,operand);
-                                   if(lbl[0]!='\0')ch
