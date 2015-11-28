@@ -8,7 +8,7 @@ CONTRIBUTERS:
 PROGRAM-Take your own hypothetical machine - create different mnemonics that can be used for that machine. Write an assembler for performing the conversion of assembly into machine code. Write the object program in another file and load the file in memory. Show the output of every step. 
 
 Breif Description:
-An assembler is a translator, that translates an assembler program into a conventional machine language program. Basically, the assembler goes through the program one line at a time, and generates machine code for that instruction. Then the assembler procedes to the next instruction. In this way, the entire machine code program is created. For most instructions this process works fine, for example for instructions that only reference registers, the assembler can compute the machine code easily, since the assembler knows where the registers are.
+An assembler is a translator, that translates an assembler program into a conventional machine language program. Basically, the assembler goes through the program one line at a time, and generates machine code for that instruction. Then the assembler proceedes to the next instruction. In this way, the entire machine code program is created. For most instructions this process works fine, for example for instructions that only reference registers, the assembler can compute the machine code easily, since the assembler knows where the registers are.
 THE assembler mainly works in 2 passes
 
 Pass-1
@@ -38,6 +38,8 @@ In Pass 2, symbols used as operands are look up in SYMTAB to obtain the addresse
 
 PASS2-
 Now that addressed code is written in intermediate.txt file now used as an input for pass 2..
-In pass 2 intermediate.txt is opened in read mode and the object code of program is writen in output.txt and displayed on screen and this was the code that we required...
+In pass 2 intermediate.txt is opened in read mode and the object code of program is writen in output.txt 
+
+at the end you will get the required object code displayed om screen...
 
 
